@@ -1,0 +1,31 @@
+﻿<html>
+
+
+<head>
+<script type="text/javascript" src="../Javascript/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../Javascript/jquery.form.js"></script>
+<link rel="stylesheet" type="text/css" href="od.css" />
+</head>
+
+
+<body>
+
+<form id="image_upload_form" >
+	<p>上传您的图片：</p>
+	<input type="file" id="image_file" name="image" accept="image/jpeg, image/png, image/jpg" onchange="fun_image_preview()" >
+    <input type="button" id="submit_btn" value="提交" />
+	<input type="button" id="hide_btn" value="隐藏" />
+	<input type="button" id="view_btn" value="显示" />
+	<p id="image_info"></p>
+</form>
+
+<p>识别结果：</p>
+
+<img id="img_a"  alt="解析图片.." border="1" style="position: absolute; left: 20px;top: 160px;" />
+
+<script type="text/javascript" src="od.js"></script>
+
+</body>
+
+
+</html>

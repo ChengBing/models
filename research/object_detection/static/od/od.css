@@ -1,0 +1,8 @@
+#image_preview {
+	border: 1px solid #ccc;
+	width: 100%;
+	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
